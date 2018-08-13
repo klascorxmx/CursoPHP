@@ -1,0 +1,53 @@
+git config --global user.name "klascor"
+
+git config --global user.email "higuera2914@"
+
+git init crea repositorio local
+
+git status
+
+git add . agrega todos los archivos para una foto
+
+git add *.png agrega todos los .png
+
+git add carpeta/ agrega la carpeta espesifica
+
+git add index.html    agrega el archivo index
+
+git commit -m "primer commit"
+
+git status -s te permite ver que archivos estan en el staged y los que no estan
+
+git reset HEAD nombre_del_archivo saca el archivo del staged
+
+gint config --global alias.lg "log --online --decorate --all --graph
+
+git checkout -- .
+
+git diff muestra los cambios hechos en un archivo
+
+git commit --amend -m "mensaje nuevo" actualiza el mensaje de un commit
+
+git reset --hard has del commit esto borra todos los commit hasta este punto
+
+git reflog muestra una historial de las acciones en git y se puede recueprar un commit borrado desde alli
+
+git mv nombre.txt nueno_nombre.txt con esto renombra un archivo desde git
+
+git rm archivo.txt envia el archivo a borrar al staged para hacerle un commit y completar la eliminacion pero se mantiene en el git reflog
+
+.gitignore crear una carpeta con este nombre y dentro colocar todos
+
+git branch nombre_de _la _rama este comando crea una rama
+
+git branch este comando muestra las ramas existentes
+
+git checkout nombre_rama con este comando te mueves a la rama
+
+git tag -a v1.0.0 -m "mensaje" agrega una etiqueta de la version de nuestro proyecto
+
+git push --tags sube sube los cambios a nuestro repositorio remoto
+
+git pull descarga los cambios desde el repositorio remoto
+
+git push sube los cambio hechos en nuestro repositorio local
