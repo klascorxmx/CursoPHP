@@ -1,6 +1,47 @@
 <?php
 
+$a = 20;
+$b = "30";
 
+if ($a!=$b) {
+	echo "a y b son iguales";
+}else{
+	echo "a y b son diferente";
+}
+/*            OPERADORESD DE ASIGNACION - OPERADORES DE COMPARACION
+
+					  =                    ==   IGUAL
+					  +=                   ===  IGUAL DEL MISMO TIPO 
+					  -=				   !=   DIFERENTE QUE
+					  *=			       <>
+					  /=				   <    MENOR QUE
+					  %=				   >    MAYOR QUE
+					  					   <=   MENOR O IGUAL QUE
+					  					   >=   MAYOR O IGUAL QUE
+					  					   <=> NAVE ESPACIAL
+					  					   ?   TERNARIO
+					  					   ??  FISION NULL
+$a = 40;
+$a += 20;
+echo "<h1>$a</h1>";
+/*     EJEMPLO DE CONCATENACION Y OPERADORES ARICMETICOS
+$a =30;
+$b = 50;
+$c = 40;
+$d = $a + $c;
+echo "<h1>".($a + $b) * ($c + $d)."</h1>";
+*/
+
+
+/*               VERSION DE PHP
+echo PHP_VERSION;
+*/
+
+/*                      DECLARAR UNA CONSTANTE 
+define("PI",3.141516);
+
+echo PI*2;
+*/
 /*                  FORZAR VARIABLES int-string-float-array-object
 
 $a = 125.5;
@@ -34,4 +75,6 @@ CONDICIONALES IF  Y ELSE
  } else {
  	echo "ES MAYO QUE 9";
  }*/
+
  ?>
+ 
