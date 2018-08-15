@@ -1,13 +1,45 @@
 <?php
+ 
 
-$a = 20;
-$b = "30";
+ $x = "OPERADOR TERNIARIO ?";
+/*
+ESTE OPERADOR DE COMPARACION SE LLAMA TERNARIO Y ES UN --> ? FUNCIONA PARECIDO AL if y al else pero 
+resumido 
 
-if ($a!=$b) {
-	echo "a y b son iguales";
+$y = 20;
+$x = 2;              if            else 
+                      |             |
+echo $y == $x ? "es igual" : " es diferente";
+
+*/
+
+
+$X = "OPERADOR NAVE ESPACIAL ";
+
+/*    ESTE OPERADOR DE COMPRACION SE LLAMA NAVE ESPACIAL Y COMPARA SI
+      A ES MENOR QUE B NOS DA -1
+      A ES IGUAL QUE B NOS DA 0
+      A ES MAYOR QUE B NOS DA 1
+$a = 35;
+$b = 30;
+
+echo $a <=> $b;
+
+*/
+
+
+
+
+$X = " OPERADOR DE IGUALDA DEL MISMO TIPO Y VALOR"
+/*
+if ($a===$b) {
+	echo "<h1>a y b son iguales</h1>";
 }else{
-	echo "a y b son diferente";
-}
+	echo "<h1>a y b son diferente</h1>";
+} */
+
+
+
 /*            OPERADORESD DE ASIGNACION - OPERADORES DE COMPARACION
 
 					  =                    ==   IGUAL
