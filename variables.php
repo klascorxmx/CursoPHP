@@ -1,6 +1,24 @@
 <?php
- 
 
+$x = "siclo while para hacer una tabla de multiplicar usando "
+
+
+/*     OPERADORES LOGICOS and - && 
+						  
+						  ||	
+ /*        TABLA DE ULTIPLICAR   
+
+$a = 0;
+define("tabla",5);
+$r = 0;
+while ($a <= 10) {
+	echo "<h3>".$a.' x 5 ='.$r."</h3><br>";
+	$a++;
+	$r = $a * tabla;
+
+}
+
+*/
  $x = "OPERADOR TERNIARIO ?";
 /*
 ESTE OPERADOR DE COMPARACION SE LLAMA TERNARIO Y ES UN --> ? FUNCIONA PARECIDO AL if y al else pero 
